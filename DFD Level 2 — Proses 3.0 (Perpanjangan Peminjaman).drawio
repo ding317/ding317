@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="MZHrqj9vBgX9H06q8HF7">
-    <mxGraphModel dx="1414" dy="851" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="262" dy="492" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,80 +14,70 @@
           <mxGeometry height="85" width="170" x="360" y="125" as="geometry" />
         </mxCell>
         <mxCell id="p32" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#8C8C8C;strokeColor=#595959;fontColor=#FFFFFF;fontSize=12;" value="Tinjau &amp; Atur&lt;br&gt;Jatuh Tempo&lt;br&gt;3.2" vertex="1">
-          <mxGeometry height="85" width="170" x="670" y="365" as="geometry" />
+          <mxGeometry height="85" width="170" x="796" y="355" as="geometry" />
         </mxCell>
         <mxCell id="d3" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=1;bottom=1;left=0;right=0;strokeWidth=3;strokeColor=#000000;fillColor=none;fontColor=#000000;fontSize=12;" value="Data Transaksi" vertex="1">
           <mxGeometry height="36" width="125" x="382" y="390" as="geometry" />
         </mxCell>
-        <mxCell id="e1" edge="1" parent="1" source="user" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="p31" value="Permintaan Lihat &amp; Perpanjangan (idTransaksi)">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e1" edge="1" parent="1" source="user" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="p31" value="Permintaan Lihat &amp; Perpanjangan (idTransaksi)">
+          <mxGeometry relative="1" x="0.1697" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="175" y="160" />
-              <mxPoint x="295" y="160" />
+              <mxPoint x="136.7" y="167.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e2" edge="1" parent="1" source="p31" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="user" value="Daftar Peminjaman">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e2" edge="1" parent="1" source="p31" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="user" value="Daftar Peminjaman">
+          <mxGeometry relative="1" x="-0.0774" as="geometry">
             <Array as="points">
-              <mxPoint x="315" y="230" />
-              <mxPoint x="215" y="230" />
+              <mxPoint x="77.1" y="136.4" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e3" edge="1" parent="1" source="p31" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="d3" value="Kueri Data Peminjaman (idUser)">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e3" edge="1" parent="1" source="p31" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="d3" value="Kueri Data Peminjaman (idUser)">
+          <mxGeometry relative="1" x="0.4857" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="385" y="290" />
-              <mxPoint x="385" y="330" />
+              <mxPoint x="492.1" y="359.21" />
+              <mxPoint x="492.1" y="359.21" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e4" edge="1" parent="1" source="d3" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="p31" value="Daftar Peminjaman Aktif">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e4" edge="1" parent="1" source="d3" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="p31" value="Daftar Peminjaman Aktif">
+          <mxGeometry relative="1" x="-0.058" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="505" y="330" />
-              <mxPoint x="505" y="290" />
+              <mxPoint x="414.11" y="300.05" />
+              <mxPoint x="414.11" y="300.05" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e5" edge="1" parent="1" source="p31" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="staff" value="Data Pengajuan Perpanjangan">
+        <mxCell id="e5" edge="1" parent="1" source="p31" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="staff" value="Data Pengajuan Perpanjangan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="staff" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="p32" value="Hasil Persetujuan Perpanjangan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="p32" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="d3" value="Kueri &amp; Pembaruan Jatuh Tempo">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="665" y="165" />
-              <mxPoint x="865" y="165" />
+              <mxPoint x="545.3" y="420.33" />
+              <mxPoint x="545.3" y="420.33" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e6" edge="1" parent="1" source="staff" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="p32" value="Hasil Persetujuan Perpanjangan">
+        <mxCell id="e8" edge="1" parent="1" source="d3" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="p32" value="Status Jatuh Tempo Diperbarui">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="955" y="405" />
-              <mxPoint x="880" y="405" />
+              <mxPoint x="651.5" y="393.6" />
+              <mxPoint x="651.5" y="395.4" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e7" edge="1" parent="1" source="p32" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="d3" value="Kueri &amp; Pembaruan Jatuh Tempo">
+        <mxCell id="e9" edge="1" parent="1" source="p32" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="user" value="Notifikasi Status Perpanjangan">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="625" y="375" />
-              <mxPoint x="550" y="375" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e8" edge="1" parent="1" source="d3" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="p32" value="Status Jatuh Tempo Diperbarui">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="550" y="445" />
-              <mxPoint x="625" y="445" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e9" edge="1" parent="1" source="p32" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="user" value="Notifikasi Status Perpanjangan">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="500" y="515" />
-              <mxPoint x="255" y="515" />
+              <mxPoint x="110" y="450.1" />
             </Array>
           </mxGeometry>
         </mxCell>
