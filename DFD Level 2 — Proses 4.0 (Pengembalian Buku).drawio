@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="XeYTNfwpxfklrBuZ5XSe">
-    <mxGraphModel dx="1444" dy="1773" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="1467" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,10 +16,10 @@
         <mxCell id="p42" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#8C8C8C;strokeColor=#595959;fontColor=#FFFFFF;fontSize=12;" value="Catat Pengembalian&lt;br&gt;&amp; Cek Antrean&lt;br&gt;4.2" vertex="1">
           <mxGeometry height="85" width="185" x="360" y="455" as="geometry" />
         </mxCell>
-        <mxCell id="d3" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=1;bottom=1;left=0;right=0;strokeWidth=3;strokeColor=#000000;fillColor=none;fontColor=#000000;fontSize=12;" value="Data Transaksi" vertex="1">
+        <mxCell id="d3" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=1;bottom=1;left=0;right=0;strokeWidth=3;strokeColor=#000000;fillColor=none;fontColor=#000000;fontSize=12;" value="D3 Data Transaksi" vertex="1">
           <mxGeometry height="36" width="125" x="675" y="252" as="geometry" />
         </mxCell>
-        <mxCell id="d2" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=1;bottom=1;left=0;right=0;strokeWidth=3;strokeColor=#000000;fillColor=none;fontColor=#000000;fontSize=12;" value="Data Buku" vertex="1">
+        <mxCell id="d2" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=1;bottom=1;left=0;right=0;strokeWidth=3;strokeColor=#000000;fillColor=none;fontColor=#000000;fontSize=12;" value="D2 Data Buku" vertex="1">
           <mxGeometry height="36" width="115" x="920" y="480" as="geometry" />
         </mxCell>
         <mxCell id="e1" edge="1" parent="1" source="user" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="p41" value="Data Pengembalian (idTransaksi)">
@@ -45,9 +45,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e4" edge="1" parent="1" source="p41" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="staff" value="Info Pengembalian &amp; Keterlambatan">
-          <mxGeometry relative="1" x="0.1503" as="geometry">
+          <mxGeometry relative="1" x="0.0474" y="3" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="712.5" y="195" />
+              <mxPoint x="458.6" y="195" />
             </Array>
             <mxPoint x="535" y="183" as="sourcePoint" />
             <mxPoint x="920" y="183" as="targetPoint" />
