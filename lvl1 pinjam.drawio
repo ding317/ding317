@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="PUp1fbM2tXZzSEXusgGR">
-    <mxGraphModel dx="1414" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1444" dy="1773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,92 +25,88 @@
         <mxCell id="d3" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=1;bottom=1;left=0;right=0;strokeWidth=3;strokeColor=#000000;fillColor=none;fontColor=#000000;fontSize=12;" value="Data Transaksi" vertex="1">
           <mxGeometry height="36" width="125" x="1085" y="585" as="geometry" />
         </mxCell>
-        <mxCell id="e1" edge="1" parent="1" source="user" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="p21" value="kata kunci pencarian">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e1" edge="1" parent="1" source="user" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="p21" value="kata kunci pencarian">
+          <mxGeometry relative="1" x="-0.009" as="geometry">
             <Array as="points">
-              <mxPoint x="170" y="210" />
+              <mxPoint x="120" y="230" />
+              <mxPoint x="467.5" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e2" edge="1" parent="1" source="p21" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="user" value="hasil pencarian dan ketersediaan buku">
+        <mxCell id="e2" edge="1" parent="1" source="p21" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="user" value="hasil pencarian dan ketersediaan buku">
+          <mxGeometry relative="1" x="-0.0714" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="142.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="p21" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="d2" value="kueri stok buku">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e3" edge="1" parent="1" source="p21" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="d2" value="kueri stok buku">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e4" edge="1" parent="1" source="d2" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="p21" value="status ketersediaan buku">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="user" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="p22" value="pengajuan peminjaman">
+          <mxGeometry relative="1" x="-0.0001" as="geometry">
             <Array as="points">
-              <mxPoint x="615" y="105" />
-              <mxPoint x="700" y="105" />
+              <mxPoint x="210" y="380" />
+              <mxPoint x="210" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e4" edge="1" parent="1" source="d2" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="p21" value="status ketersediaan buku">
+        <mxCell id="e6" edge="1" parent="1" source="p22" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="staff" value="data pengajuan peminjaman">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="700" y="175" />
-              <mxPoint x="615" y="175" />
+              <mxPoint x="900" y="360" />
+              <mxPoint x="900" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e5" edge="1" parent="1" source="user" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="p22" value="pengajuan peminjaman">
+        <mxCell id="e7" edge="1" parent="1" source="staff" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="p22" value="hasil verifikasi pengajuan">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="240" y="340" />
-              <mxPoint x="325" y="340" />
+              <mxPoint x="890" y="390" />
+              <mxPoint x="890" y="390" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e6" edge="1" parent="1" source="p22" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="staff" value="data pengajuan peminjaman">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e8" edge="1" parent="1" source="p22" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="p23" value="data peminjaman terverifikasi">
+          <mxGeometry relative="1" x="-0.0427" as="geometry">
             <Array as="points">
-              <mxPoint x="700" y="335" />
-              <mxPoint x="940" y="335" />
+              <mxPoint x="470" y="460" />
+              <mxPoint x="800" y="460" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e7" edge="1" parent="1" source="staff" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="p22" value="hasil verifikasi pengajuan">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e9" edge="1" parent="1" source="user" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="p23" value="permintaan reservasi">
+          <mxGeometry relative="1" x="0.0315" as="geometry">
             <Array as="points">
-              <mxPoint x="940" y="415" />
-              <mxPoint x="700" y="415" />
+              <mxPoint x="130" y="520" />
+              <mxPoint x="740" y="520" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e8" edge="1" parent="1" source="p22" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="p23" value="data peminjaman terverifikasi">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="550" y="515" />
-              <mxPoint x="625" y="545" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e9" edge="1" parent="1" source="user" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="p23" value="permintaan reservasi">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="410" y="530" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e10" edge="1" parent="1" source="p23" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="user" value="bukti dan riwayat peminjaman">
-          <mxGeometry relative="1" x="-0.156" y="-57" as="geometry">
+        <mxCell id="e10" edge="1" parent="1" source="p23" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="user" value="bukti dan riwayat peminjaman">
+          <mxGeometry relative="1" x="-0.2817" y="-3" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="320" y="680" />
+              <mxPoint x="80" y="602.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e11" edge="1" parent="1" source="p23" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="d3" value="data transaksi &amp; reservasi">
+        <mxCell id="e11" edge="1" parent="1" source="p23" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="d3" value="data transaksi &amp; reservasi">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="945" y="560" />
-              <mxPoint x="1025" y="560" />
+              <mxPoint x="1060" y="610" />
+              <mxPoint x="1060" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e12" edge="1" parent="1" source="d3" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="p23" value="bukti &amp; riwayat transaksi">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e12" edge="1" parent="1" source="d3" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="p23" value="bukti &amp; riwayat transaksi">
+          <mxGeometry relative="1" x="-0.0753" as="geometry">
             <Array as="points">
-              <mxPoint x="1025" y="645" />
-              <mxPoint x="945" y="645" />
+              <mxPoint x="1040" y="590" />
+              <mxPoint x="1040" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
