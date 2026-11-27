@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="bF2Uo6FlIP9cqBbPpqTC">
-    <mxGraphModel dx="1414" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="835" dy="1025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,51 +19,41 @@
         <mxCell id="d3" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=1;bottom=1;left=0;right=0;strokeWidth=3;strokeColor=#000000;fillColor=none;fontColor=#000000;fontSize=12;" value="Data Transaksi" vertex="1">
           <mxGeometry height="36" width="125" x="405" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="e1" edge="1" parent="1" source="user" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="p31" value="permintaan perpanjangan">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e1" edge="1" parent="1" source="user" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="p31" value="permintaan perpanjangan">
+          <mxGeometry relative="1" x="-0.1863" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="200" y="180" />
-              <mxPoint x="310" y="180" />
+              <mxPoint x="430" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e2" edge="1" parent="1" source="d3" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="p31" value="data peminjaman aktif">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e2" edge="1" parent="1" source="d3" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="p31" value="data peminjaman aktif">
+          <mxGeometry relative="1" x="-0.3731" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="467" y="310" />
-              <mxPoint x="467" y="330" />
+              <mxPoint x="490" y="360" />
+              <mxPoint x="490" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e3" edge="1" parent="1" source="p31" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="staff" value="pengajuan perpanjangan">
+        <mxCell id="e3" edge="1" parent="1" source="p31" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="staff" value="pengajuan perpanjangan">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="700" y="175" />
-              <mxPoint x="900" y="175" />
+              <mxPoint x="1070" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e4" edge="1" parent="1" source="staff" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="p32" value="keputusan perpanjangan">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="980" y="425" />
-              <mxPoint x="910" y="425" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="e4" edge="1" parent="1" source="staff" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="p32" value="keputusan perpanjangan">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e5" edge="1" parent="1" source="p32" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="d3" value="pembaruan jatuh tempo">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="635" y="428" />
-              <mxPoint x="580" y="428" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="e5" edge="1" parent="1" source="p32" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="d3" value="pembaruan jatuh tempo">
+          <mxGeometry relative="1" x="0.0031" as="geometry" />
         </mxCell>
-        <mxCell id="e6" edge="1" parent="1" source="p32" style="curved=1;endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;" target="user" value="notifikasi">
+        <mxCell id="e6" edge="1" parent="1" source="p32" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="user" value="notifikasi">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="510" y="545" />
-              <mxPoint x="275" y="545" />
+              <mxPoint x="782.5" y="520" />
+              <mxPoint x="125" y="520" />
             </Array>
           </mxGeometry>
         </mxCell>
