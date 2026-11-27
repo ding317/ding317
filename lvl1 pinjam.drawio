@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="PUp1fbM2tXZzSEXusgGR">
-    <mxGraphModel dx="693" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1004" dy="1233" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e2" edge="1" parent="1" source="p21" style="endArrow=classic;html=1;strokeWidth=1.5;strokeColor=#000000;fontColor=#000000;fontSize=11;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" target="user" value="hasil pencarian dan ketersediaan buku">
-          <mxGeometry relative="1" x="-0.0714" as="geometry">
+          <mxGeometry relative="1" x="-0.3166" y="-3" as="geometry">
+            <mxPoint y="1" as="offset" />
             <Array as="points">
               <mxPoint x="80" y="142.5" />
             </Array>
